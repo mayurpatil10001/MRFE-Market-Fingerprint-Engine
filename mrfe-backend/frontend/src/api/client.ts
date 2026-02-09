@@ -12,7 +12,9 @@ function notifyActivity() {
 export function subscribeToActivity(listener: ActivityListener) {
   activityListeners.add(listener);
   listener(pendingRequests);
-  return () => activityListeners.delete(listener);
+  return () => {
+    activityListeners.delete(listener);
+  };
 }
 
 export function getPendingRequests() {
