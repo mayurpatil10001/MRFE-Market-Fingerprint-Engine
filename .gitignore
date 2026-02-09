@@ -1,0 +1,46 @@
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+**/.venv/
+**/venv/
+
+# Node
+**/node_modules/
+**/dist/
+**/.cache/
+**/.vite/
+
+# Logs
+**/*.log
+
+# OS/IDE
+**/.DS_Store
+**/Thumbs.db
+**/.idea/
+**/.vscode/
+
+# Local runtime data
+storage/
+.qodo/
+temp_sb3/
+
+# Demo/data outputs (keep demo news)
+mrfe-backend/data/*
+!mrfe-backend/data/newsapi.json
