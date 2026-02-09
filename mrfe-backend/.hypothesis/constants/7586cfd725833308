@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\monitoring\metrics.py
+# hypothesis_version: 6.150.0
+
+[0.01, 0.025, 0.05, 0.1, 0.2, 0.25, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 30.0, 'Total HTTP requests', 'action', 'method', 'model', 'model_version', 'path', 'provider', 'query_name', 'source', 'status', 'status_code', 'token_type']

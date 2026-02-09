@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\websocket\router.py
+# hypothesis_version: 6.150.0
+
+['/ws/realtime', '/ws/{topic}', 'message', 'realtime', 'topic']

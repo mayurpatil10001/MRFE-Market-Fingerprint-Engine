@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\entities\forecast.py
+# hypothesis_version: 6.150.0
+
+[-1.0, 0.01, 1.0, 'Forecast', 'version must be >= 1']

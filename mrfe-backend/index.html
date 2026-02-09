@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MRFE Command Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/public/styles.css" />
+</head>
+<body>
+    <div class="bg-layer" aria-hidden="true"></div>
+    <main class="layout">
+        <header class="hero panel">
+            <div>
+                <p class="eyebrow">Market Reaction Fingerprint Engine</p>
+                <h1>MRFE Command Center</h1>
+                <p class="hero-copy">
+                    Real-time event detection, fingerprint generation, probabilistic forecasting, and
+                    AI-assisted market intelligence from one unified control surface.
+                </p>
+            </div>
+            <div class="hero-meta">
+                <a class="btn btn-outline" href="/docs" target="_blank" rel="noreferrer">Open API Docs</a>
+                <div id="systemStatus" class="status-pill">System status: checking</div>
+            </div>
+        </header>
+
+        <section class="grid">
+            <article class="panel stack">
+                <h2>Authentication</h2>
+                <p class="muted">Issue a JWT once and run secured workflows.</p>
+                <div class="row">
+                    <label for="userId">User ID</label>
+                    <input id="userId" value="desk_trader_01" />
+                </div>
+                <div class="row">
+                    <label for="roles">Roles (comma separated)</label>
+                    <input id="roles" value="reader,trader" />
+                </div>
+                <button id="issueTokenBtn" class="btn">Issue Access Token</button>
+                <div class="token-wrap">
+                    <span class="muted">Access token</span>
+                    <code id="tokenPreview">none</code>
+                </div>
+            </article>
+
+            <article class="panel stack">
+                <h2>Event Detection</h2>
+                <div class="row">
+                    <label for="newsSource">Source</label>
+                    <input id="newsSource" value="institutional-wire" />
+                </div>
+                <div class="row">
+                    <label for="newsContent">News Context</label>
+                    <textarea id="newsContent" rows="5">NVIDIA issued stronger-than-expected guidance after reporting acceleration in data center orders and AI infrastructure demand.</textarea>
+                </div>
+                <button id="detectBtn" class="btn">Detect Event</button>
+                <p class="muted">Detected Event ID: <code id="eventId">n/a</code></p>
+            </article>
+
+            <article class="panel stack">
+                <h2>Fingerprint + Forecast</h2>
+                <div class="row">
+                    <label for="assetSymbol">Asset Symbol</label>
+                    <input id="assetSymbol" value="NVDA" />
+                </div>
+                <div class="row split">
+                    <button id="fingerprintBtn" class="btn">Generate Fingerprint</button>
+                    <button id="forecastBtn" class="btn">Generate Forecast</button>
+                </div>
+                <p class="muted">Fingerprint ID: <code id="fingerprintId">n/a</code></p>
+                <p class="muted">Forecast ID: <code id="forecastId">n/a</code></p>
+            </article>
+
+            <article class="panel stack">
+                <h2>AI Market Intel</h2>
+                <p class="muted">Uses OpenRouter API key when available, deterministic fallback otherwise.</p>
+                <div class="row split">
+                    <div>
+                        <label for="horizon">Horizon (hours)</label>
+                        <input id="horizon" type="number" min="1" max="168" value="24" />
+                    </div>
+                    <div>
+                        <label for="riskProfile">Risk Profile</label>
+                        <select id="riskProfile">
+                            <option value="conservative">conservative</option>
+                            <option value="balanced" selected>balanced</option>
+                            <option value="aggressive">aggressive</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="intelBtn" class="btn">Generate AI Brief</button>
+                <p class="muted">Provider mode: <code id="providerMode">checking...</code></p>
+            </article>
+
+            <article class="panel stack">
+                <h2>MLOps Control</h2>
+                <p class="muted">Register models, promote stages, and run drift checks.</p>
+                <div class="row split">
+                    <div>
+                        <label for="modelName">Model Name</label>
+                        <input id="modelName" value="forecast-ensemble" />
+                    </div>
+                    <div>
+                        <label for="modelVersion">Model Version</label>
+                        <input id="modelVersion" value="2026.02.07" />
+                    </div>
+                </div>
+                <div class="row split">
+                    <button id="registerModelBtn" class="btn btn-outline">Register Model</button>
+                    <button id="runDriftBtn" class="btn btn-outline">Run Drift Check</button>
+                </div>
+                <p class="muted">Registered model ID: <code id="modelId">n/a</code></p>
+            </article>
+
+            <article class="panel stack">
+                <h2>Realtime Stream</h2>
+                <p class="muted">WebSocket topic echo to verify low-latency signaling.</p>
+                <div class="row split">
+                    <button id="wsConnectBtn" class="btn btn-outline">Connect</button>
+                    <button id="wsPingBtn" class="btn btn-outline">Send Ping</button>
+                </div>
+                <pre id="wsLog" class="output small">stream offline</pre>
+            </article>
+
+            <article class="panel stack">
+                <h2>Result Console</h2>
+                <p class="muted">Last API response payload.</p>
+                <pre id="resultConsole" class="output">No response yet.</pre>
+            </article>
+        </section>
+    </main>
+
+    <script src="/public/app.js" defer></script>
+</body>
+</html>

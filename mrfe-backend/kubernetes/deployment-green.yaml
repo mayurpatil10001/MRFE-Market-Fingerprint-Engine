@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mrfe-api-green
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mrfe-api
+      color: green
+  template:
+    metadata:
+      labels:
+        app: mrfe-api
+        color: green
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/example/mrfe-backend:green
+          ports:
+            - containerPort: 8000

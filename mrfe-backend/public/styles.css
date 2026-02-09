@@ -1,0 +1,227 @@
+﻿:root {
+    --bg-primary: #06070b;
+    --bg-secondary: #0d1119;
+    --panel: rgba(9, 14, 26, 0.74);
+    --line: rgba(127, 214, 255, 0.35);
+    --text: #f5f8ff;
+    --muted: #9da7bd;
+    --neon-cyan: #34d8ff;
+    --neon-lime: #79ff5f;
+    --neon-pink: #ff4fbc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    color: var(--text);
+    background: radial-gradient(circle at 15% 20%, #122236, var(--bg-primary) 55%),
+        linear-gradient(180deg, #07090f 0%, #04050a 100%);
+    min-height: 100vh;
+}
+
+.bg-layer {
+    position: fixed;
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 85% 15%, rgba(255, 79, 188, 0.2), transparent 35%),
+        radial-gradient(circle at 20% 80%, rgba(52, 216, 255, 0.2), transparent 36%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.layout {
+    position: relative;
+    z-index: 1;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 18px 44px;
+}
+
+.panel {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    box-shadow: 0 0 0 1px rgba(17, 27, 43, 0.8) inset, 0 0 28px rgba(52, 216, 255, 0.15);
+    border-radius: 18px;
+    backdrop-filter: blur(8px);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding: 22px;
+}
+
+.eyebrow {
+    margin: 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    color: var(--neon-lime);
+}
+
+h1 {
+    margin: 6px 0;
+    font-size: clamp(1.6rem, 3vw, 2.6rem);
+    text-shadow: 0 0 14px rgba(52, 216, 255, 0.35);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.18rem;
+}
+
+.hero-copy,
+.muted {
+    color: var(--muted);
+}
+
+.hero-copy {
+    max-width: 760px;
+    margin: 8px 0 0;
+    line-height: 1.45;
+}
+
+.hero-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 220px;
+}
+
+.status-pill {
+    border-radius: 999px;
+    padding: 8px 12px;
+    border: 1px solid rgba(121, 255, 95, 0.45);
+    color: var(--neon-lime);
+    background: rgba(17, 24, 18, 0.7);
+    font-size: 0.86rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.grid > article {
+    grid-column: span 6;
+}
+
+.stack {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 0.82rem;
+    color: #c6d1ea;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(106, 129, 172, 0.5);
+    background: rgba(3, 8, 18, 0.78);
+    color: var(--text);
+    padding: 10px;
+    font: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 0 2px rgba(52, 216, 255, 0.24);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.row.split {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.btn {
+    border: 1px solid rgba(52, 216, 255, 0.5);
+    border-radius: 11px;
+    padding: 10px 14px;
+    color: #04111b;
+    background: linear-gradient(90deg, var(--neon-cyan), #87e6ff);
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 16px rgba(52, 216, 255, 0.45);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-outline {
+    color: var(--text);
+    background: rgba(52, 216, 255, 0.08);
+}
+
+.token-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+code,
+.output {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.output {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.56);
+    border: 1px solid rgba(85, 100, 141, 0.58);
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 230px;
+    overflow: auto;
+    line-height: 1.4;
+    color: #cceeff;
+}
+
+.output.small {
+    min-height: 120px;
+}
+
+@media (max-width: 980px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grid > article {
+        grid-column: span 12;
+    }
+}

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\database\models\event_model.py
+# hypothesis_version: 6.150.0
+
+[128, 255, 'ck_events_confidence', 'ck_events_sentiment', 'detected_at', 'event_type', 'events', 'severity']

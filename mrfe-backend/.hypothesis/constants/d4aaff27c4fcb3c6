@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\application\dto\queries.py
+# hypothesis_version: 6.150.0
+
+[200, 'desc', 'detected_at']

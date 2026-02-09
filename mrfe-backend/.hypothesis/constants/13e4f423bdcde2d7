@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\interfaces\__init__.py
+# hypothesis_version: 6.150.0
+
+['AbstractRepository', 'EventRepository', 'EventSearchFilters', 'FingerprintGenerator', 'ForecastGenerator', 'ForecastRepository', 'PaginatedResult', 'Pagination', 'UnitOfWork']

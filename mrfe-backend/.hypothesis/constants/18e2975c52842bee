@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\value_objects\confidence.py
+# hypothesis_version: 6.150.0
+
+[0.0, 1.0, 100.0, 'Confidence']

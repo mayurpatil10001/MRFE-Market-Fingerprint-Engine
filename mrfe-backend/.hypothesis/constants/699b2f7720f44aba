@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\intel.py
+# hypothesis_version: 6.150.0
+
+[0.0, 0.15, 0.2, 0.3, 0.33, 0.45, 0.5, 0.54, 0.55, 0.58, 0.6, 0.66, 0.8, 1.0, 1.1, 1.35, 1.4, 120, 500, 700, '/brief', '/capabilities', '/intel', 'Base Case', 'Downside Shock', 'Scenario', 'Upside Breakout', '\\{.*\\}', 'action_bias', 'aggressive', 'balanced', 'bearish', 'beat', 'bullish', 'choices', 'confidence', 'conservative', 'content', 'decline', 'downgrade', 'earnings', 'expansion', 'fallback_mode', 'fallback_model', 'fed', 'growth', 'guidance', 'heuristic-fallback', 'inflation', 'intel', 'key_drivers', 'lawsuit', 'llm_available', 'merger', 'message', 'miss', 'model', 'name', 'neutral', 'openrouter', 'probability', 'provider', 'rationale', 'risk', 'role', 'scenarios', 'strong', 'summary', 'surge', 'system', 'upgrade', 'user', 'volume', 'weak']

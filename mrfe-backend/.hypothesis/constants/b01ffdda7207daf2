@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\events\event_detected.py
+# hypothesis_version: 6.150.0
+
+[0.0, 'EventClassified', 'EventDetected', 'event.classified', 'event.detected']

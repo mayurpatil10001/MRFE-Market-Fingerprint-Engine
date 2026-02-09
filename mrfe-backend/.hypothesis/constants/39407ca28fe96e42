@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\logging\logger_config.py
+# hypothesis_version: 6.150.0
+
+['%(message)s', 'iso']

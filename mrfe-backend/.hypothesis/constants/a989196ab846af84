@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\value_objects\event_type.py
+# hypothesis_version: 6.150.0
+
+['EventType', 'GEO_POLITICAL', 'LEGAL_ISSUE', 'MACRO_ECONOMIC', 'MANAGEMENT_CHANGE', 'MERGER_ACQUISITION', 'NATURAL_DISASTER', 'PRODUCT_LAUNCH', 'REGULATORY_CHANGE', 'TECHNICAL_BREACH', '_']

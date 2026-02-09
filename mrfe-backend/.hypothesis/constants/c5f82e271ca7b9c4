@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\middleware\security.py
+# hypothesis_version: 6.150.0
+
+['DENY', 'Permissions-Policy', 'Referrer-Policy', 'X-Frame-Options', 'https', 'nosniff']

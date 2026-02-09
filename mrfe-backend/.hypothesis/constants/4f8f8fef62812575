@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\fingerprint_generator_impl.py
+# hypothesis_version: 6.150.0
+
+[0.0, 0.02, 0.03, 0.04, 0.05, 0.08, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.5, 0.55, 0.6, 0.8, 0.9, 0.95, 0.99, 1.0, 1.2, 1.5, 120, 600, 720, 4294967295, 'CRITICAL', 'HIGH', 'LOW', 'MEDIUM', 'avg_volatility', 'avg_volume_index', 'initial_shock', 'reversion_speed', 'secondary_aftershock']

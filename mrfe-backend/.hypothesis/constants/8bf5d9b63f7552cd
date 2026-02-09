@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\fingerprints.py
+# hypothesis_version: 6.150.0
+
+[200, '/fingerprints', '/{fingerprint_id}', 'fingerprints', 'trader']

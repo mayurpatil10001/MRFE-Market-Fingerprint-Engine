@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\data_collection\macro_collector.py
+# hypothesis_version: 6.150.0
+
+[20.0, '.', '/series/observations', 'api_key', 'date', 'file_type', 'json', 'observation_end', 'observation_start', 'observations', 'observed_at', 'series_id', 'value']

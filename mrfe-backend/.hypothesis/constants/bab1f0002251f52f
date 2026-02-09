@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\database\session.py
+# hypothesis_version: 6.150.0
+
+[0.2, 120, 1000, 'after_cursor_execute', 'check_same_thread', 'connect_args', 'echo', 'max_overflow', 'pool_pre_ping', 'pool_size', 'query_start_time', 'slow_query', 'sqlalchemy', 'sqlite+aiosqlite']

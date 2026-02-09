@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\workers\celery_app.py
+# hypothesis_version: 6.150.0
+
+['default', 'events', 'fingerprints', 'forecasts', 'maintenance', 'mrfe', 'priority', 'queue', 'schedule', 'task']

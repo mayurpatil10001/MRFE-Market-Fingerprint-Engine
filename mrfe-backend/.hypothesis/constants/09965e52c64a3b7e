@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\external_apis\openrouter_client.py
+# hypothesis_version: 6.150.0
+
+[0.2, 0.25, 2.0, 400, 429, 500, 502, 503, 504, '/', '/chat/completions', 'Authorization', 'Content-Type', 'HTTP-Referer', 'X-Title', 'application/json', 'choices', 'completion', 'completion_tokens', 'content', 'cost', 'estimated_cost', 'http_error', 'max_tokens', 'message', 'messages', 'model', 'openai/gpt-4o-mini', 'openrouter', 'prompt', 'prompt_tokens', 'success', 'temperature', 'timeout', 'total', 'total_cost', 'total_cost_usd', 'total_tokens', 'usage']

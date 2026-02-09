@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\ensemble_forecast_generator.py
+# hypothesis_version: 6.150.0
+
+[-1.0, 0.0, 0.02, 0.05, 0.07, 0.08, 0.09, 0.1, 0.12, 0.14, 0.18, 0.25, 0.3, 0.4, 0.44, 0.6, 0.7, 0.75, 0.99, 1.0, 2.5, 97.5, 100.0, 200, '0', 'ensemble_weight', 'interval_50_high', 'interval_50_low', 'interval_90_high', 'interval_90_low', 'interval_95_high', 'interval_95_low', 'interval_mean', 'mc_paths', 'model_disagreement', 'negative', 'neutral', 'positive', 'reaction_intensity', 'regime_signal', 'similarity_count', 'similarity_support', 'strong_negative', 'strong_positive']

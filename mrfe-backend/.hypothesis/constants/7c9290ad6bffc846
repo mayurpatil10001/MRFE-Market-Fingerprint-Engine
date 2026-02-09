@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\database\models\fingerprint_model.py
+# hypothesis_version: 6.150.0
+
+['CASCADE', 'asset_symbol', 'event_id', 'events.event_id', 'fingerprints']

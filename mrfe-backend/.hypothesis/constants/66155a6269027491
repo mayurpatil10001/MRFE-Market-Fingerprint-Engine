@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\__init__.py
+# hypothesis_version: 6.150.0
+
+['/api/v1', 'api_v1_router']

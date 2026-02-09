@@ -1,0 +1,24 @@
+groups:
+  - name: mrfe-api-alerts
+    rules:
+      - alert: MRFEHighErrorRate
+        expr: sum(rate(mrfe_http_requests_total{status_code=~"5.."}[5m])) / sum(rate(mrfe_http_requests_total[5m])) > 0.05
+        for: 10m
+        labels:
+          severity: critical
+        annotations:
+          summary: MRFE API error rate is above 5%
+      - alert: MRFESlowLLMRequests
+        expr: histogram_quantile(0.95, sum(rate(mrfe_llm_request_duration_seconds_bucket[5m])) by (le,model)) > 8
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: P95 LLM latency above 8s
+      - alert: MRFEOpenRouterSpendSpike
+        expr: increase(mrfe_llm_cost_usd_total[1h]) > 25
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: OpenRouter spend spike detected

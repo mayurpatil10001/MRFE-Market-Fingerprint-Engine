@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\main.py
+# hypothesis_version: 6.150.0
+
+[0.2, 404, 1024, '*', '/', '/assets', '/public', '/{full_path:path}', 'api/', 'app_started', 'app_stopped', 'assets', 'assets/', 'detail', 'dist', 'docs', 'frontend', 'health', 'index.html', 'metrics', 'not found', 'openapi.json', 'public', 'public/', 'service', 'version', 'ws/']

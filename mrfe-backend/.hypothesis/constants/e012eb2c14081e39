@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\database\repositories\event_repository_mongo.py
+# hypothesis_version: 6.150.0
+
+['$search', '$set', '$text', 'confidence', 'country', 'desc', 'description', 'detected_at', 'event_id', 'event_type', 'impact_assets', 'is_active', 'market_sector', 'resolved_at', 'sentiment_score', 'severity', 'source', 'title', 'version']

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\logging\processors.py
+# hypothesis_version: 6.150.0
+
+['***', 'api_key', 'authorization', 'password', 'private_key', 'refresh_token', 'secret', 'token']

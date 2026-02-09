@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\continuous_learning.py
+# hypothesis_version: 6.150.0
+
+[-0.001, 0.0, 0.001, 0.03, 0.5, 1.0, 'bear', 'bull', 'sideways', 'unknown', 'volatile']

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\model_registry.py
+# hypothesis_version: 6.150.0
+
+['archived', 'artifact_uri', 'created_at', 'framework', 'model_id', 'model_id not found', 'name', 'production', 'stage', 'staging', 'tags', 'utf-8', 'version']

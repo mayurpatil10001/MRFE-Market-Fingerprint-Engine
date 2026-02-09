@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\config\environments.py
+# hypothesis_version: 6.150.0
+
+[120, 240, 600, 'development', 'production', 'staging']

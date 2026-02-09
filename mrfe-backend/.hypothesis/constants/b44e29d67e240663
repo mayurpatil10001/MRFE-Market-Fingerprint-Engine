@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\backtesting.py
+# hypothesis_version: 6.150.0
+
+[0.0, 'directional_accuracy', 'mae', 'rmse']

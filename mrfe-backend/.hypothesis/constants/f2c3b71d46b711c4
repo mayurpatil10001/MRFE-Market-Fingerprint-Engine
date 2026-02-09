@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\workers\tasks.py
+# hypothesis_version: 6.150.0
+
+[0.02, 0.034, 0.05, 0.1, 100, 120, '$set', 'CPIAUCSL', 'DIA', 'FEDFUNDS', 'GLD', 'PROGRESS', 'QQQ', 'SPY', 'TLT', 'UNRATE', '_id', 'backfill in progress', 'cnbc', 'completed', 'confidence_delta', 'detected_events', 'done', 'drift_score', 'end_date', 'forecasts generating', 'fred_api_key', 'items', 'macro data collected', 'market data saved', 'message', 'model_version', 'news collected', 'news parsed', 'news_count.txt', 'newsapi.json', 'newsapi_count.txt', 'processed', 'progress', 'published_at', 'removed', 'reuters', 'start_date', 'starting collectors', 'status', 'training in progress', 'utf-8', 'winner']

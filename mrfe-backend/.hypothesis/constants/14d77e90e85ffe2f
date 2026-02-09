@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\tasks.py
+# hypothesis_version: 6.150.0
+
+[0.0, '/detect-events', '/retrain-from-drift', '/tasks', '/validate-shadow', '/{task_id}', 'candidate-unknown', 'drift_score', 'model_version', 'prod-unknown', 'result', 'state', 'task_id', 'tasks', 'unknown']

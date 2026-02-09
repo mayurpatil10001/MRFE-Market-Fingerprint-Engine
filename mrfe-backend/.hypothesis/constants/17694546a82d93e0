@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\workers\tasks.py
+# hypothesis_version: 6.150.0
+
+[0.02, 0.05, 0.1, 100, 120, 'PROGRESS', 'backfill in progress', 'detected_events', 'done', 'end_date', 'forecasts generating', 'items', 'message', 'model_version', 'news parsed', 'processed', 'progress', 'start_date', 'status', 'training in progress']

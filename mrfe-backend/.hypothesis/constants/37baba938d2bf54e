@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\system.py
+# hypothesis_version: 6.150.0
+
+['/health/live', '/health/ready', '/metrics', 'SELECT 1', 'alive', 'ready', 'status', 'system']

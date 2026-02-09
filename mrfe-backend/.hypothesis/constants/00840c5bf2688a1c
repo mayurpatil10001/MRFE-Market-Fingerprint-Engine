@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\external_apis\openrouter_client.py
+# hypothesis_version: 6.150.0
+
+[0.2, 30.0, 400, '/chat/completions', 'Authorization', 'Content-Type', 'application/json', 'max_tokens', 'messages', 'model', 'openai/gpt-4o-mini', 'temperature']

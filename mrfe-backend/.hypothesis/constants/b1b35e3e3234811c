@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\ml_ops.py
+# hypothesis_version: 6.150.0
+
+['/drift/check', '/ml', '/models', '/models/register', '/regime/detect', '/retraining/schedule', 'drift_alert', 'ml-ops', 'promote', 'register', 'trader']

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\utils\exception_handler.py
+# hypothesis_version: 6.150.0
+
+[400, 404, 409, 422, 500, 'INTEGRITY_ERROR', 'INTERNAL_ERROR', 'detail', 'domain_exception', 'error_code', 'integrity_error', 'unhandled_exception']

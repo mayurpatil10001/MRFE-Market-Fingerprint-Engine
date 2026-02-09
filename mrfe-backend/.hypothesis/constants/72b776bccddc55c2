@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\data_collection\news_collector.py
+# hypothesis_version: 6.150.0
+
+[20.0, 255, 2000, './/item', '<[^>]+>', '_id', 'author', 'description', 'guid', 'link', 'pubDate', 'published_at', 'source', 'summary', 'title', 'url']

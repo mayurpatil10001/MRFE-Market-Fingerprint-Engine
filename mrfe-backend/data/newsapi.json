@@ -1,0 +1,38 @@
+[
+  {
+    "article_id": "demo-001",
+    "source": "demo",
+    "title": "CPI Surprise Lifts Rate Path Expectations",
+    "summary": "Core inflation printed above consensus, lifting the front-end of the curve and pressuring growth multiples.",
+    "url": "https://mrfe.local/demo/cpi-surprise",
+    "published_at": "2026-02-09T09:15:00+00:00",
+    "author": "MRFE Demo Desk"
+  },
+  {
+    "article_id": "demo-002",
+    "source": "demo",
+    "title": "Energy Supply Shock Triggers Risk-Off Rotation",
+    "summary": "Energy prices spiked as supply risks escalated, sending defensive flows into duration and value.",
+    "url": "https://mrfe.local/demo/energy-shock",
+    "published_at": "2026-02-09T08:40:00+00:00",
+    "author": "MRFE Demo Desk"
+  },
+  {
+    "article_id": "demo-003",
+    "source": "demo",
+    "title": "Regulatory Guidance Shifts for Systemic Banks",
+    "summary": "Updated capital guidance could tighten lending conditions and widen credit spreads.",
+    "url": "https://mrfe.local/demo/regulatory-guidance",
+    "published_at": "2026-02-09T07:55:00+00:00",
+    "author": "MRFE Demo Desk"
+  },
+  {
+    "article_id": "demo-004",
+    "source": "demo",
+    "title": "Tech Megacap Earnings Beat but Guidance Cautious",
+    "summary": "Top-line beat contrasted with conservative forward guidance, keeping implied volatility elevated.",
+    "url": "https://mrfe.local/demo/earnings-guidance",
+    "published_at": "2026-02-09T06:30:00+00:00",
+    "author": "MRFE Demo Desk"
+  }
+]

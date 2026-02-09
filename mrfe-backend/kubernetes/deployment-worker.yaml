@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mrfe-worker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mrfe-worker
+  template:
+    metadata:
+      labels:
+        app: mrfe-worker
+    spec:
+      containers:
+        - name: worker
+          image: ghcr.io/example/mrfe-worker:latest
+          envFrom:
+            - configMapRef:
+                name: mrfe-config
+            - secretRef:
+                name: mrfe-secrets

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\middleware\rate_limit.py
+# hypothesis_version: 6.150.0
+
+['authorization', 'detail', 'rate limit exceeded', 'unknown']

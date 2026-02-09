@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\event_detection_service_impl.py
+# hypothesis_version: 6.150.0
+
+[0.0, 0.1, 0.52, 0.78, 120, '.', 'CRITICAL', 'HIGH', 'LEGAL_ISSUE', 'LOW', 'MACRO_ECONOMIC', 'MEDIUM', 'MERGER_ACQUISITION', 'REGULATORY_CHANGE', 'SPY', 'TECHNICAL_BREACH', '\\$?([A-Z]{2,5})\\b', 'acquisition', 'breach', 'earnings', 'lawsuit', 'merger', 'regulation']

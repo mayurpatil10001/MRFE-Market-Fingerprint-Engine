@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\application\interfaces\__init__.py
+# hypothesis_version: 6.150.0
+
+['TCommand', 'TQuery', 'TResult']

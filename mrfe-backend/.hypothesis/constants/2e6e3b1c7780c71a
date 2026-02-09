@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\reactions.py
+# hypothesis_version: 6.150.0
+
+[0.0, 0.2, 0.3, 0.5, 1.0, 10.0, 100.0, 150.0, 200.0, 100, 500, '/measure', '/measure-and-store', '/reactions', 'reactions']

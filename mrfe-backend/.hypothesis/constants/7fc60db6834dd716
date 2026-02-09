@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\config\settings.py
+# hypothesis_version: 6.150.0
+
+[120, 3600, '.env', '/api/v1', '2.0.0', 'INFO', 'MRFE Backend', 'RS256', 'dev-private-key', 'dev-public-key', 'development', 'ignore', 'mrfe', 'news_events', 'production', 'staging', 'testing', 'utf-8']

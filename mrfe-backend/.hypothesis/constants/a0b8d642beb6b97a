@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\similarity_service.py
+# hypothesis_version: 6.150.0
+
+[0.0, 'asset_symbol', 'category', 'event_confidence', 'reaction_intensity', 'sentiment_score', 'volatility_impact', 'volume_impact']

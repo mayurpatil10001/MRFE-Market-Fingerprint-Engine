@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\model_loader.py
+# hypothesis_version: 6.150.0
+
+['joblib_load_failed', 'joblib_missing', 'text-classification', 'transformers_missing']

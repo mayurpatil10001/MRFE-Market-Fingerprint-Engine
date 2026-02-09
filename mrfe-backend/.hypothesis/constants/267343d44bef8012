@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\data_collection\__init__.py
+# hypothesis_version: 6.150.0
+
+['FREDMacroCollector', 'MacroObservation', 'MarketCandle', 'MarketDataCollector', 'NewsAPIArticle', 'NewsAPICollector', 'NewsArticle', 'NewsCollector', 'prune_old_files']

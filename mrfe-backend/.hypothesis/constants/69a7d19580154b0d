@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\domain\entities\fingerprint.py
+# hypothesis_version: 6.150.0
+
+[0.0, 1.0, 'Fingerprint', 'version must be >= 1']

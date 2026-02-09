@@ -1,0 +1,222 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {
+        "score": [
+          "score",
+          0
+        ],
+        "lives": [
+          "lives",
+          3
+        ]
+      },
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "backdrop1",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "off",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Cat",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {
+        "block1": {
+          "opcode": "event_whenflagclicked",
+          "next": "block2",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 100,
+          "y": 100
+        },
+        "block2": {
+          "opcode": "control_forever",
+          "next": null,
+          "parent": "block1",
+          "inputs": {
+            "SUBSTACK": [
+              "block3",
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "block3": {
+          "opcode": "motion_movesteps",
+          "next": "block4",
+          "parent": "block2",
+          "inputs": {
+            "STEPS": [
+              10,
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "block4": {
+          "opcode": "control_wait",
+          "next": null,
+          "parent": "block3",
+          "inputs": {
+            "DURATION": [
+              0.1,
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "costume1",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "bcf454acf82e4504149f7ffe07081dbc",
+          "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
+          "rotationCenterX": 48,
+          "rotationCenterY": 50
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Apple",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {
+        "block5": {
+          "opcode": "event_whenflagclicked",
+          "next": "block6",
+          "parent": null,
+          "inputs": {},
+          "fields": {},
+          "shadow": false,
+          "topLevel": true,
+          "x": 200,
+          "y": 200
+        },
+        "block6": {
+          "opcode": "control_forever",
+          "next": null,
+          "parent": "block5",
+          "inputs": {
+            "SUBSTACK": [
+              "block7",
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "block7": {
+          "opcode": "motion_gotoxy",
+          "next": "block8",
+          "parent": "block6",
+          "inputs": {
+            "X": [
+              -150,
+              null
+            ],
+            "Y": [
+              100,
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        },
+        "block8": {
+          "opcode": "control_wait",
+          "next": null,
+          "parent": "block7",
+          "inputs": {
+            "DURATION": [
+              2,
+              null
+            ]
+          },
+          "fields": {},
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "name": "apple",
+          "bitmapResolution": 1,
+          "dataFormat": "svg",
+          "assetId": "d9e3e6767b012871f13b3f8c7b6c54e",
+          "md5ext": "d9e3e6767b012871f13b3f8c7b6c54e.svg",
+          "rotationCenterX": 25,
+          "rotationCenterY": 25
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": -150,
+      "y": 100,
+      "size": 50,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0-prerelease.20200515175014",
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  }
+}

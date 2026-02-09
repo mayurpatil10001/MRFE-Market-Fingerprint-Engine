@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\ml\nlp_event_detection_service.py
+# hypothesis_version: 6.150.0
+
+[-1.0, 0.0, 0.81, 1.0, 120, '.', 'GEO_POLITICAL', 'HIGH', 'MACRO_ECONOMIC', 'MEDIUM', 'MERGER_ACQUISITION', 'SPY', '\\$?([A-Z]{2,5})\\b', 'acquisition', 'bank', 'beat', 'buyback', 'categories', 'china', 'consumer', 'decline', 'downgrade', 'earnings', 'ecb', 'election', 'energy', 'eps', 'event_taxonomy.yaml', 'event_type', 'expand', 'fed', 'financials', 'fomc', 'france', 'germany', 'growth', 'guidance', 'healthcare', 'india', 'japan', 'keywords', 'lawsuit', 'merger', 'miss', 'oil', 'pharma', 'rate cut', 'rate hike', 'retail', 'revenue', 'risk', 'sanctions', 'semiconductor', 'severity', 'strong', 'surge', 'tariff', 'technology', 'uk', 'upgrade', 'us', 'utf-8', 'war', 'weak']

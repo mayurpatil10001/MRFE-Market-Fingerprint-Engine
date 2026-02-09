@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\data_collection\newsapi_collector.py
+# hypothesis_version: 6.150.0
+
+[20.0, 120, 255, 2000, '+00:00', '/everything', '/top-headlines', 'Z', 'apiKey', 'articles', 'author', 'description', 'en', 'from', 'language', 'name', 'newsapi', 'pageSize', 'publishedAt', 'q', 'sortBy', 'source', 'sources', 'title', 'url']

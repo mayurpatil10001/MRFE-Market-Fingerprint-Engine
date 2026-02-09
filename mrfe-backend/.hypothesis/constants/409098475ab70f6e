@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\events.py
+# hypothesis_version: 6.150.0
+
+[200, '/classify', '/detect', '/events', '/{event_id}', 'events', 'json']

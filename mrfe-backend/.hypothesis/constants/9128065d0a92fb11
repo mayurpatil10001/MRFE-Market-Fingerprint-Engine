@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\news.py
+# hypothesis_version: 6.150.0
+
+[200, '$options', '$or', '$regex', '$set', '%Y-%m-%d', '/news', '/refresh', '_id', 'article_id', 'author', 'everything', 'i', 'news', 'newsapi', 'newsapi.json', 'published_at', 'source', 'summary', 'title', 'top', 'url', 'utf-8']

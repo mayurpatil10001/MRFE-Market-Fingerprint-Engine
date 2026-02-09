@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\v1\schemas.py
+# hypothesis_version: 6.150.0
+
+[0.0, 1.0, 120, 168, 240, 500, 6000, 30000, 'aggressive', 'balanced', 'bearer', 'bearish', 'bullish', 'conservative', 'forbid', 'neutral', 'reader', 'v1']

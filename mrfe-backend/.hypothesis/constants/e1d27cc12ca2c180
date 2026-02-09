@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\infrastructure\data_collection\market_collector.py
+# hypothesis_version: 6.150.0
+
+[0.0, 20.0, ',', '.jsonl', '0', ':', 'Close', 'Date', 'High', 'Low', 'Open', 'Volume', '^', 'd', 'i', 's', 'timestamp', 'utf-8']

@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\core\security\auth.py
+# hypothesis_version: 6.150.0
+
+[2048, 65537, '-----BEGIN', 'X-API-Key', 'access', 'api_key', 'bearer', 'exp', 'forbidden', 'iat', 'invalid token', 'invalid token type', 'jti', 'missing credentials', 'reader', 'refresh', 'roles', 'service', 'service-account', 'sub', 'trader', 'type']

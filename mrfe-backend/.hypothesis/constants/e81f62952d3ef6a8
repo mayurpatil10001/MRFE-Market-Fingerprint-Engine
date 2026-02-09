@@ -1,0 +1,4 @@
+# file: D:\MRFE2\mrfe-backend\src\api\rest\middleware\__init__.py
+# hypothesis_version: 6.150.0
+
+['MetricsMiddleware', 'RateLimitMiddleware', 'RequestIDMiddleware']

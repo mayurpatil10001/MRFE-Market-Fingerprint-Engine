@@ -1,0 +1,25 @@
+categories:
+  - id: central_bank
+    keywords: [fed, ecb, boj, rate hike, rate cut, fomc, monetary policy]
+    event_type: MACRO_ECONOMIC
+    severity: HIGH
+  - id: macro
+    keywords: [inflation, cpi, gdp, nfp, unemployment, recession]
+    event_type: MACRO_ECONOMIC
+    severity: MEDIUM
+  - id: geopolitical
+    keywords: [sanctions, war, conflict, tariffs, election]
+    event_type: GEO_POLITICAL
+    severity: HIGH
+  - id: earnings
+    keywords: [earnings, guidance, revenue, eps, outlook]
+    event_type: EARNINGS_ANNOUNCEMENT
+    severity: MEDIUM
+  - id: corporate_actions
+    keywords: [acquisition, merger, buyback, spin-off, bankruptcy]
+    event_type: MERGER_ACQUISITION
+    severity: HIGH
+  - id: regulation
+    keywords: [regulation, sec, antitrust, lawsuit, approval]
+    event_type: REGULATORY_CHANGE
+    severity: HIGH
