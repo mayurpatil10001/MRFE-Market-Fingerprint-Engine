@@ -1,4 +1,4 @@
-# MRFE Backend
+# MRFE 
 
 Production-oriented backend for the Market Reaction Fingerprint Engine (MRFE), built with:
 - FastAPI (async API adapters)
